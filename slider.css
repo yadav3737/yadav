@@ -1,0 +1,76 @@
+/* Background Slider */
+.background-slider {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.slides {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    animation: slideAnimation 9s infinite;
+}
+
+.slide {
+    min-width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+/* Navbar Styling */
+.navbar {
+    position: relative;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent navbar */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+}
+
+/* Logo */
+.logo img {
+    height: 50px;
+}
+
+/* Search bar */
+.search-bar input {
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* Auth Buttons */
+.auth-buttons a {
+    text-decoration: none;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.login-btn {
+    background: white;
+    color: black;
+}
+
+.signup-btn {
+    background: blue;
+    color: white;
+}

@@ -1,0 +1,55 @@
+/* Small Fixed Footer */
+.small-footer {
+    footer {
+        background-color: transparent;
+    }
+    
+    background: #e2e0dc85;
+    color: rgb(235, 225, 225);
+    text-align: center;
+    padding: 10px 10;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    background: white;
+    border-radius: 50%;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+/* Facebook Button */
+.facebook-btn {
+    background: #1877F2;
+}
+
+.facebook-btn:hover {
+    background: #1558C7;
+}
+
+/* Google Button */
+.google-btn {
+    background: #DB4437;
+}
+
+.google-btn:hover {
+    background: #C1351D;
+}
